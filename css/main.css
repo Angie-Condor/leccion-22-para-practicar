@@ -1,29 +1,37 @@
 body{
   font-family: "Raleway";
-  text-align: center;
 }
 
 div{
-  display: inline-block;
-  width: 150px;
+  background-color: rgb(203, 208, 209);
+  border: solid 1px;
+  width: 50px;
   height: 50px;
-  padding-top: 8px;
-  padding-left: 5px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  margin: 20px 3px;
-  text-align: left;
+  margin: 3px 3px;
 }
 
-.primer{
-  background-color: yellow;
+.primero{
+  margin-bottom: 8px;
 }
-
 .segundo{
-  background-color: rgb(245, 51, 115);
+  display: block;
+  width: 165px;
+  height: 53px;
+  margin: 5px 3px;
+  padding: 5px;
+  /*margin: 20px 3px;
+  text-align: left;*/
 }
 
-.tercero{
-  background-color: yellow;
-  text-transform: uppercase;
+.segundo-in{
+  display: inline-block;
+  margin: auto;
+}
+
+.tercero, .cuarto{
+  display: inline-block;
+}
+
+.quinto{
+  display: block;
 }
